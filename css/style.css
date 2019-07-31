@@ -1,0 +1,76 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+#Home{
+	 background-image: url("../image/pubg air drop.jpg");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.H-overly{
+	background: rgba(0, 0, 0, .60);
+	padding: 88px 0px;
+}
+
+#Home .H-content h2{
+	font-family: 'Oswald', sans-serif;
+	
+	font-size: 50px;
+	color:AliceBlue;
+}
+
+#Home .H-content h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	color:AliceBlue ;
+	font-weight: 700;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+#Home .H-content p{
+	font-size: 20px;
+	color:Chartreuse ;
+	line-height: 30px;
+	margin-bottom: 34px;
+}
+
+#Home .H-button a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #dfe6e9;
+	border: 1px solid #dfe6e9;
+	padding: 10px 15px;
+	margin-left: 20px;
+	transition: all linear .3s;
+}
+#Home .H-button a:hover{
+	background: #636e72;
+	border:1px solid #636e72; 
+	border-radius: 50px;
+}
+
+/* table  part */
+
+.table-n{
+	background-color: #84817a;
+}
+
+
+/* gallery part */
+
+.Gallery{
+	background-color: #aaa69d;
+}
